@@ -14,19 +14,11 @@
 			remoteGlobalIDString = CEDBB5C62F226D6800C78E6E;
 			remoteInfo = ToDoList;
 		};
-		CEDBB5EB2F226D6A00C78E6E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEDBB5BF2F226D6800C78E6E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEDBB5C62F226D6800C78E6E;
-			remoteInfo = ToDoList;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CEDBB5C72F226D6800C78E6E /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDBB5E02F226D6A00C78E6E /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEDBB5EA2F226D6A00C78E6E /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,11 +45,6 @@
 			path = ToDoListTests;
 			sourceTree = "<group>";
 		};
-		CEDBB5ED2F226D6A00C78E6E /* ToDoListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoListUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +62,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEDBB5E72F226D6A00C78E6E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +70,6 @@
 			children = (
 				CEDBB5C92F226D6800C78E6E /* ToDoList */,
 				CEDBB5E32F226D6A00C78E6E /* ToDoListTests */,
-				CEDBB5ED2F226D6A00C78E6E /* ToDoListUITests */,
 				CEDBB5C82F226D6800C78E6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +79,6 @@
 			children = (
 				CEDBB5C72F226D6800C78E6E /* ToDoList.app */,
 				CEDBB5E02F226D6A00C78E6E /* ToDoListTests.xctest */,
-				CEDBB5EA2F226D6A00C78E6E /* ToDoListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,29 +131,6 @@
 			productReference = CEDBB5E02F226D6A00C78E6E /* ToDoListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEDBB5E92F226D6A00C78E6E /* ToDoListUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEDBB5FB2F226D6A00C78E6E /* Build configuration list for PBXNativeTarget "ToDoListUITests" */;
-			buildPhases = (
-				CEDBB5E62F226D6A00C78E6E /* Sources */,
-				CEDBB5E72F226D6A00C78E6E /* Frameworks */,
-				CEDBB5E82F226D6A00C78E6E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEDBB5EC2F226D6A00C78E6E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CEDBB5ED2F226D6A00C78E6E /* ToDoListUITests */,
-			);
-			name = ToDoListUITests;
-			packageProductDependencies = (
-			);
-			productName = ToDoListUITests;
-			productReference = CEDBB5EA2F226D6A00C78E6E /* ToDoListUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +145,6 @@
 						CreatedOnToolsVersion = 16.4;
 					};
 					CEDBB5DF2F226D6A00C78E6E = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = CEDBB5C62F226D6800C78E6E;
-					};
-					CEDBB5E92F226D6A00C78E6E = {
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = CEDBB5C62F226D6800C78E6E;
 					};
@@ -215,7 +166,6 @@
 			targets = (
 				CEDBB5C62F226D6800C78E6E /* ToDoList */,
 				CEDBB5DF2F226D6A00C78E6E /* ToDoListTests */,
-				CEDBB5E92F226D6A00C78E6E /* ToDoListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEDBB5DE2F226D6A00C78E6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEDBB5E82F226D6A00C78E6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,13 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEDBB5E62F226D6A00C78E6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,11 +209,6 @@
 			isa = PBXTargetDependency;
 			target = CEDBB5C62F226D6800C78E6E /* ToDoList */;
 			targetProxy = CEDBB5E12F226D6A00C78E6E /* PBXContainerItemProxy */;
-		};
-		CEDBB5EC2F226D6A00C78E6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEDBB5C62F226D6800C78E6E /* ToDoList */;
-			targetProxy = CEDBB5EB2F226D6A00C78E6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -294,7 +225,6 @@
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +256,6 @@
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -399,6 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -457,6 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -505,40 +436,6 @@
 			};
 			name = Release;
 		};
-		CEDBB5FC2F226D6A00C78E6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJA62MK9TU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.Fennec-meow.ToDoListUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ToDoList;
-			};
-			name = Debug;
-		};
-		CEDBB5FD2F226D6A00C78E6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FJA62MK9TU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.Fennec-meow.ToDoListUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ToDoList;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,15 +462,6 @@
 			buildConfigurations = (
 				CEDBB5F92F226D6A00C78E6E /* Debug */,
 				CEDBB5FA2F226D6A00C78E6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEDBB5FB2F226D6A00C78E6E /* Build configuration list for PBXNativeTarget "ToDoListUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEDBB5FC2F226D6A00C78E6E /* Debug */,
-				CEDBB5FD2F226D6A00C78E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
