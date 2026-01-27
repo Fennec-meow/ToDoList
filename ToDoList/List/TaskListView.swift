@@ -235,7 +235,7 @@ extension TaskListViewController {
         
         let leftView = UIView(frame: CGRect(x: 0, y: 0, width: 44, height: 40))
         let searchIcon = UIImageView(image: UIImage(systemName: "magnifyingglass"))
-        searchIcon.tintColor = .ypWhite.withAlphaComponent(0.6) // Белая лупа с прозрачностью
+        searchIcon.tintColor = .ypWhite.withAlphaComponent(0.6) 
         searchIcon.frame = CGRect(x: 12, y: 10, width: 20, height: 20)
         searchIcon.contentMode = .scaleAspectFit
         leftView.addSubview(searchIcon)
